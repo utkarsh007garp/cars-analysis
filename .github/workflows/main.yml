@@ -1,0 +1,169 @@
+print('''|--------------------------------------------------------|
+|                                                        |
+|             WELCOME TO CARS SALES ANALYSIS MENU        |
+|                                                        |
+|                                                        |
+|       ▂▄▄▓▄▄▂                                          |
+|     ◢◤█▀████▄▄▄▄▄▄◤                                   |
+|     ██ IP  ████▀▀▀▀▀▀╬                                 |
+|     ◥█████◤                                           |
+|     ══╩══╩══                                           |
+|                                                        |
+|                                                        |
+|                                                        |
+|                                                        |
+|--------------------------------------------------------|
+''')
+def menu() :
+    print("[1],for tata analysis")
+    print("[2],for maruti analysis")
+    print("[3],for toyota analysis")
+    print("[4],for volkswagen analysis")
+    print("[5]exit the program")
+
+
+menu()
+option = int(input("enter your option "))
+
+while option != 0:
+    if option == 1:
+        print('chose an option')
+        print('[1] SHOW COLUMNS')
+        print('[2] SHOW TOP ROWS')
+        print('[3] SHOW BOTTOM ROWS')
+        print('[4] SHOW SPECIFIC COLUMN')
+        print('[5] ADD A NEW RECORD')
+        print('[6] DELETE A RECORD')
+        print('[7] COMPLETE DATASET')
+        choice = int(input('enter your choice'))
+        if choice == 1:
+            #csv file nhi hai
+            print('1')
+        elif choice == 2:
+            #csv file nhi hai
+            print('2')
+        elif choice == 3:
+            #csv file nhi hai
+            print('3')
+        elif choice == 4:
+            #csv file nhi hai
+            print('4')
+        elif choice == 5:
+            # csv file nhi hai
+            print('5')
+        elif choice == 6:
+            # csv file nhi hai
+            print('6')
+        elif choice == 7:
+            #csv file nhi hai
+            print('7')
+    elif option == 2:
+        print('chose an option')
+        print('[1] SHOW COLUMNS')
+        print('[2] SHOW TOP ROWS')
+        print('[3] SHOW BOTTOM ROWS')
+        print('[4] SHOW SPECIFIC COLUMN')
+        print('[5] ADD A NEW RECORD')
+        print('[6] DELETE A RECORD')
+        print('[7] COMPLETE DATASET')
+        choice = int(input('enter your choice'))
+        if choice == 1:
+            #csv file nhi hai
+            print('11')
+        elif choice == 2:
+            #csv file nhi hai
+            print('22')
+        elif choice == 3:
+            #csv file nhi hai
+            print('33')
+        elif choice == 4:
+            #csv file nhi hai
+            print('44')
+        elif choice == 5:
+            # csv file nhi hai
+            print('55')
+        elif choice == 6:
+            # csv file nhi hai
+            print('66')
+        elif choice == 7:
+            #csv file nhi hai
+            print('77')
+    elif option == 3:
+        print('chose an option')
+        print('[1] SHOW COLUMNS')
+        print('[2] SHOW TOP ROWS')
+        print('[3] SHOW BOTTOM ROWS')
+        print('[4] SHOW SPECIFIC COLUMN')
+        print('[5] ADD A NEW RECORD')
+        print('[6] DELETE A RECORD')
+        print('[7] COMPLETE DATASET')
+        choice = int(input('enter your choice'))
+        if choice == 1:
+            #csv file nhi hai
+            print('111')
+        elif choice == 2:
+            #csv file nhi hai
+            print('222')
+        elif choice == 3:
+            #csv file nhi hai
+            print('333')
+        elif choice == 4:
+            #csv file nhi hai
+            print('444')
+        elif choice == 5:
+            # csv file nhi hai
+            print('555')
+        elif choice == 6:
+            # csv file nhi hai
+            print('666')
+        elif choice == 7:
+            #csv file nhi hai
+            print('777')
+    elif option == 4:
+        print('chose an option')
+        print('[1] SHOW COLUMNS')
+        print('[2] SHOW TOP ROWS')
+        print('[3] SHOW BOTTOM ROWS')
+        print('[4] SHOW SPECIFIC COLUMN')
+        print('[5] ADD A NEW RECORD')
+        print('[6] DELETE A RECORD')
+        print('[7] COMPLETE DATASET')
+        choice = int(input('enter your choice'))
+        if choice == 1:
+            #csv file nhi hai
+            print('1111')
+        elif choice == 2:
+            #csv file nhi hai
+            print('2222')
+        elif choice == 3:
+            #csv file nhi hai
+            print('3333')
+        elif choice == 4:
+            #csv file nhi hai
+            print('4444')
+        elif choice == 5:
+            # csv file nhi hai
+            print('5555')
+        elif choice == 6:
+            # csv file nhi hai
+            print('6666')
+        elif choice == 7:
+            #csv file nhi hai
+            print('7777')
+    elif option == 5:
+        print('invalid option')
+
+    print()
+    menu()
+    option = int(input("enter your option "))
+
+print("thanks for using this program")
+
+
+
+
+
+
+
+
+
